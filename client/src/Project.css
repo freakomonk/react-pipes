@@ -1,0 +1,50 @@
+.Project-Create {
+  height: auto;
+  width: 90%;
+  box-shadow: 5px 5px black;
+  background-color: #191919;
+}
+
+.Project-Form{
+    height: auto;
+    width: 90%;
+    box-shadow: 5px 5px black;
+    background-color: #191919;
+}
+
+.Project-Name {
+  width: 200%;
+  height: 20px;
+  border-radius: 2px;
+}
+
+.Project-Name:focus{
+  background-color: #F0EE90;
+  background-size: 100% 100%;
+}
+
+.Project-Logo {
+  height: auto;
+  width: 95px;
+}
+
+.font {
+  font-family:Merriweather, serif;
+}
+
+.Project-Title {
+ margin-bottom: 20px;
+}
+
+.Project-Title:hover{
+  cursor: pointer;
+}
+
+.rows .row {
+  display: inline-block;
+}
+
+form  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }

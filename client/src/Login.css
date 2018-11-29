@@ -1,0 +1,30 @@
+.Login-inputBox{
+  width: 200px;
+  height:25px;
+  border-radius:5px;
+  margin-top:10px;
+}
+
+.Login-inputBox:focus {
+  background-color: #F0EE90;
+  background-size: 100% 100%;
+}
+
+.Login-Submit {
+  margin-top: 10px;
+  width: 80px;
+  height: 30px;
+  border-radius: 3px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.Login-Submit:focus {
+  border-color: blue;
+}
+
+.Login {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+}
